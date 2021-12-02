@@ -14,7 +14,7 @@ param($Request, $TriggerMetadata)
 ## Start Making changes from here ##
 
 $url = "https://htfapi.azurewebsites.net/api/the-real-donald"
-$method = "GET"
+$method = "POST"
 $body = @{
     "sendFakeDonaldData": true
 }
