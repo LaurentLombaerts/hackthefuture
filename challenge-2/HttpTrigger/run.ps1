@@ -21,10 +21,7 @@ $body = @"
 }
 "@
 
-$jsonBody = $body | ConvertTo-Json
-
-
-
+$jsonBody = $body | ConvertFrom-Json
 
 
 
